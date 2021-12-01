@@ -1,6 +1,6 @@
 import { input } from './input'
-import { puzzle1 } from './puzzle1'
-import { puzzle2 } from './puzzle2'
+import { puzzle1 } from './puzzle-01'
+import { puzzle2 } from './puzzle-02'
 
 describe('day 1 puzzles', () => {
   const givenInput = `199
