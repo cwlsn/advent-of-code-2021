@@ -6,22 +6,20 @@ function parseInput(input: string): number[] {
 
 function implementation(input: number[]): number {
   let count = 0
-  // Sliding window of 3
-  let previousWindowSum = input[0] + input[1] + input[2]
-  for (let i = 1; i < input.length - 2; i += 1) {
-    const windowSum = input[i] + input[i + 1] + input[i + 2]
-    if (windowSum > previousWindowSum) {
+  let previous = input[0]
+  for (let i = 1; i < input.length; i += 1) {
+    if (input[i] > previous) {
       count += 1
     }
-    previousWindowSum = windowSum
+    previous = input[i]
   }
   return count
 }
 
-function puzzle2(input: string): number {
+function part1(input: string): number {
   const parsedInput = parseInput(input)
   const result = implementation(parsedInput)
   return result
 }
 
-export { puzzle2 }
+export { part1 }
