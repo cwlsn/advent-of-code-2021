@@ -13,6 +13,7 @@ describe('day 1 puzzles', () => {
     269
     260
     263`
+
   describe('puzzle #1', () => {
     test('matches given input', () => {
       expect(puzzle1(givenInput)).toEqual(7)
