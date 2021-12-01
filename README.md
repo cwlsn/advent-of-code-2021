@@ -5,3 +5,12 @@ Using a modified boilerplate: [ts-jest-boilerplate](https://github.com/utatatata
 ## Overview
 
 AOC puzzles typically involve a given input and output, to start a puzzle create a test case with those and develop with `yarn test:watch`.
+
+## Journal
+
+<details>
+  <summary>Day 1</summary>
+
+This is the writing
+
+</details>
