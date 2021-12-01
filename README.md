@@ -11,6 +11,6 @@ AOC puzzles typically involve a given input and output, to start a puzzle create
 <details>
   <summary>Day 1</summary>
 
-This is the writing
+Pretty straight forward iteration. This is one of the few that I'll try at midnight, so went for what was fast on the second part, likely some cleanup available there. Definitely handy to have some utils ready and running Jest in watch mode spits out the right answer as "received".
 
 </details>
